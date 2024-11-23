@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Typography */
+.heading-1 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.heading-2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.heading-3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.heading-4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.heading-5 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.text-normal {
+  font-size: 16px;
+}
+
+/* Utilities (components) */
+
+/* Card Component */
+.card {
+
+}
+.card-header {
+
+}
+.card-content {
+
+}
+.card-footer {
+
+}
+
+/* Button Component */
+.button {
+
+}
+
+/* Footer Component */
+.footer {
+
+}
+
+/* Input Component */
+.custom-input {
+
+}
