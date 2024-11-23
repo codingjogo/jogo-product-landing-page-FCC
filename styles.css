@@ -13,9 +13,24 @@ body {
 
 /* Base */
 header {
+<<<<<<< Updated upstream
   padding: 10px 40px;
 }
 
+=======
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 40px;
+}
+
+section .container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+>>>>>>> Stashed changes
 ul {
   list-style-type: none;
 }
@@ -94,4 +109,41 @@ a {
 .nav-list {
   display: flex;
   gap: 64px;
+<<<<<<< Updated upstream
+=======
+}
+
+/* Hero Component */
+.hero {
+  padding-top: 32px;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.hero-content > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-input {
+  width: 275px;
+  padding: 6px 4px;
+}
+.hero-button {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+  padding: 0 0 0 8px;
+}
+.hero-button h5 {
+  font-weight: 900;
+>>>>>>> Stashed changes
 }
