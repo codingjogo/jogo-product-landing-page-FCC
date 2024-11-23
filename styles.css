@@ -8,6 +8,21 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background-color: #eee;
+}
+
+/* Base */
+header {
+  padding: 10px 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: initial;
+  text-decoration: none;
 }
 
 /* Typography */
@@ -64,4 +79,19 @@ body {
 /* Input Component */
 .custom-input {
 
+}
+
+/* Nav Component */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo img {
+  width: 300px;
+  height: auto;
+}
+.nav-list {
+  display: flex;
+  gap: 64px;
 }
