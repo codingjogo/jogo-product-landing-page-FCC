@@ -7,49 +7,60 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<header>
+		<header id="header">
 			<!-- Navbar Component -->
-			<nav class="nav">
+			<nav class="nav" id="nav-bar">
 				<a class="nav-logo" href="/">
 					<img
-						src="src/images/product-landing-page-logo.png"
+						id="header-img"
+						src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
 						alt="product-landing-page-logo"
 					/>
 				</a>
 
 				<ul class="nav-list">
 					<li class="nav-item">
-						<a href="#features">Features</a>
+						<a href="#features" class="nav-link">Features</a>
 					</li>
 					<li class="nav-item">
-						<a href="#how-it-works">How It Works</a>
+						<a href="#how-it-works" class="nav-link"
+							>How It Works</a
+						>
 					</li>
 					<li class="nav-item">
-						<a href="#pricing">Pricing</a>
+						<a href="#pricing" class="nav-link">Pricing</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 
-		<main>
+		<main style="padding: 100px 0 0 0">
 			<section class="hero">
 				<div class="container">
 					<div class="hero-content">
 						<h2 class="heading-2">
 							Handcrafted, home-made masterpieces
 						</h2>
-						<div>
+						<form
+							id="form"
+							action="https://www.freecodecamp.com/email-submit"
+						>
 							<div>
 								<input
-									type="text"
-									class="hero-input custom-input"
+									id="email"
+									type="email"
+                  name="email"
 									placeholder="Enter your email address"
+									required
 								/>
 							</div>
-							<button type="button" class="hero-button">
-								<h5 class="heading-5">GET STARTED</h5>
-							</button>
-						</div>
+							<input
+								id="submit"
+								type="submit"
+								class="hero-button"
+								value="GET STARTED"
+							/>
+						</form>
 					</div>
 				</div>
 			</section>
@@ -133,6 +144,7 @@
 			<section class="how-it-works" id="how-it-works">
 				<div class="container">
 					<iframe
+						id="video"
 						style="display: block; margin: 0 auto"
 						width="560"
 						height="315"
